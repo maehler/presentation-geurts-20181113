@@ -24,31 +24,120 @@
 	</head>
 	<body>
 		<div class="reveal">
+			<div class="slidelink"><a href="https://bit.ly/2OJ20Kq">https://bit.ly/2OJ20Kq</a></div>
 			<div class="slides">
 				<section>
 					<h2>Association studies, co-expression networks and genome assembly</h2>
-					<h4>Good things come in t(h)rees</h4>
-					<p><small>Niklas Mähler 2018-11-13</small></p>
-				</section>
-				
-				<section>
-					<h2>Association studies</h2>
-					<ul>
-						<li>eQTL mapping in <i>P. tremula</i></li>
-						<li>GWAS of leaf shape and metabolite abundance</li>
-					</ul>
-				</section>
-				
-				<section>
-					<h2>Co-expression networks</h2>
-					<ul>
-						<li>Conservation of co-expression across species</li>
-						<li><a href="http://complex.plantgenie.org">http://complex.plantgenie.org</a></li>
-					</ul>
+					<!--<h4>Good things come in t(h)rees</h4>-->
+					<p></p><small>Niklas Mähler 2018-11-13</small></p>
 				</section>
 
-				<section>
-					<h2>Norway spruce genome assembly</h2>
+				<!-- SwAsp -->
+				<section data-background-image="img/swasp_map_light.png" data-background-size="auto 90%"
+						 data-background-position="bottom 0 right 0">
+					<section style="width: 70%;">
+						<h3>Swedish Aspen Collection</h3>
+						<ul>
+							<li>12 populations</li>
+							<li>116 genotypes</li>
+							<li>Two common gardens</li>
+							<li>DNA-Seq and RNA-Seq</li>
+						</ul>
+					</section>
+				</section>
+				
+				<!-- Association studies -->
+				<section data-background-image="https://upload.wikimedia.org/wikipedia/commons/5/5a/Grove_at_Slätten,_Öhed.jpg"
+						 data-background-opacity="0.3">
+					<section>
+						<h2>Association studies in <i>P. tremula</i></h2>
+					</section>
+
+					<section>
+						<h3>eQTL mapping</h3>
+						<ul>
+							<li><a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1006402">Mähler <i>et al.</i> 2017</a></li>
+							<li>Association between co-expression network connectivity and selection</li>
+						</ul>
+					</section>
+
+					<section>
+						<img src="img/eqtl_manhattan.png" alt="Manhattan plot for local and distant eQTLs">
+					</section>
+
+					<section>
+						<h3>GWAS of biomass, leaf shape, and metabolite abundance</h3>
+						<p>Ongoing projects</p>
+						<p><small>Gene expression > metabolites > leaf shape > biomass</small></p>
+					</section>
+
+					<section>
+						<h3>Cinnaymoyl salicortin</h3>
+						<img src="img/cinnamoyl_salicortin_manhattan.png" alt="Manhattan plot for cinnamoyl salicortin">
+					</section>
+				</section>
+				
+				<!-- Co-expression networks -->
+				<section data-background-image="img/complex.png" data-background-opacity="0.1">
+					<section>
+						<h2>Co-expression networks</h2>
+					</section>
+
+					<section>
+						<h3>Conservation of co-expression across species</h3>
+						<ul>
+							<li><a href="https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-106">Netotea <i>et al.</i> 2014</a></li>
+							<li><a href="http://complex.plantgenie.org">complex.plantgenie.org</a></li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>Beta version</h3>
+						<ul>
+							<li>Version 3 in the works</li>
+							<li>Ability to overlay different types of data</li>
+						</ul>
+					</section>
+
+					<section>
+						<img src="img/complex.png" alt="Complex">
+					</section>
+
+					<section>
+						<img src="img/complex_extension.png" alt="Complex extensions">
+					</section>
+				</section>
+
+				<!-- Genome assembly -->
+				<section data-background-image="https://farm6.staticflickr.com/5690/21457742918_964178f889_o_d.jpg" data-background-opacity="0.2">
+					<section>
+						<h2>Norway spruce genome assembly</h2>
+					</section>
+
+					<section>
+						<ul>
+							<li>50x PacBio data</li>
+							<li>Filtered chloroplast and mitochondria reads</li>
+							<li>Downsample to 30x</li>
+						</ul>
+					</section>
+
+					<section>
+						<ul>
+							<li>MARVEL assembler developed by Siegfried Schloissnig</li>
+							<li>Originally for the axolotl genome (<a href="https://www.nature.com/articles/nature25458">Nowoshilow <i>et al.</i> 2018</a>)</li>
+							<li><a href="https://github.com/schloi/MARVEL">https://github.com/schloi/MARVEL</a></li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>Current estimate for first alignment step</h3>
+						<ul>
+							<li>1.8 million CPU hours</li>
+							<li>500 TB of storage</li>
+						</ul>
+						<p>Optimisation needed</p>
+					</section>
 				</section>
 			</div>
 		</div>
